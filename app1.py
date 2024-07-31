@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import joblib
 
-
 clf = joblib.load(open("titanic_model.pkl","rb"))
 
 def predict(data):
