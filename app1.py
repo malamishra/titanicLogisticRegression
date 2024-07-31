@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import joblib
+ #import joblib
+from joblib import Memory
 
 clf = joblib.load(open("titanic_model.pkl","rb"))
 
